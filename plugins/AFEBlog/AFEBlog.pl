@@ -11,6 +11,7 @@ my $plugin = __PACKAGE__->new(
         id          => lc $NAME,
         key         => lc $NAME,
         version     => $VERSION,
+        author_name => 'masiuchi',
         author_link => 'https://github.com/masiuchi',
         plugin_link => 'https://github.com/masiuchi/mt-plugin-afe-blog',
         description => 'Configure (Denied)AssetFileExtensions for each blog.',
